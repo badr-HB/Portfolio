@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --font-manrope: "Manrope", sans-serif;
+  --font-syne: "Syne", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+}
+
+#text{
+  @apply duration-150 ease-linear cursor-pointer hover:-translate-y-2 hover:text-[#87CEFA]
+}
+#title{
+  @apply font-manrope font-medium text-[60px] w-max relative after:content-[""] after:absolute after:bottom-px after:h-1 after:w-full after:left-0 after:bg-gray-400 after:duration-300 after:ease-in-out after:scale-x-0 hover:after:scale-x-100
+}
+*{
+  @apply scroll-smooth
+}
+#input{
+  @apply w-full py-2.5 pl-2 bg-[#111827] focus:outline-0 border border-transparent focus:border-cyan-600 font-syne font-semibold rounded-[7px]
+}
