@@ -13,7 +13,7 @@ export const world = (canvas) => {
     if (window.innerWidth >= 1200) {
         fov = 55;
     }
-    else if (window.innerWidth <= 450) {
+    else if (window.innerWidth <= 700) {
         fov = 0
     }
     else if (window.innerWidth < 1200) {

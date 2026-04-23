@@ -10,8 +10,8 @@ export default function HOME() {
         }
     }, []);
     return (
-        <div className="w-full  h-200 flex items-center justify-center">
-            <canvas ref={canvasref} className="mt-30 pointer-events-auto relative"></canvas>
+        <div className="w-full h-200 flex items-center justify-center">
+            <canvas ref={canvasref} className="mt-30 md:pointer-events-auto pointer-events-none relative"></canvas>
         </div>
     )
 }
