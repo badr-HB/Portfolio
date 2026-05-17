@@ -19,3 +19,5 @@ This project serves as my professional digital home, showcasing my skills in ful
 * **3D Graphics:** [Three.js / React Three Fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction)
 * **Form Handling:** [Zod](https://zod.dev/) & [React Hook Form](https://react-hook-form.com/)
 * **Email Service:** [Resend](https://resend.com/)
+
+* please visit the portfolio by clicking that link : (https://badrhabbach21.vercel.app/)
